@@ -30,7 +30,7 @@ This tutorial is adapted from multiple sources. We gratefully acknowledge:
 - **License:** Apache 2.0
 
 ## Spring AI Community
-- **Source:** https://github.com/spring-ai-community/claude-agent-sdk-java
+- **Source:** https://github.com/markpollack/claude-agent-sdk-java
 - **Used for:** Java SDK patterns, existing examples as inspiration
 - **License:** Apache 2.0
 

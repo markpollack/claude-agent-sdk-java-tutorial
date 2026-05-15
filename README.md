@@ -152,6 +152,6 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for credits to source material.
 
 ## Related Resources
 
-- [Claude Agent SDK Java](https://github.com/spring-ai-community/claude-agent-sdk-java) - The SDK
+- [Claude Agent SDK Java](https://github.com/markpollack/claude-agent-sdk-java) - The SDK
 - [Documentation](https://springaicommunity.mintlify.app/agent-sdk) - Full documentation and API reference
 - [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) - Official Claude Code docs

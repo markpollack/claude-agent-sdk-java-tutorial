@@ -11,7 +11,7 @@
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.zeroturnaround.exec.*;
-import org.springaicommunity.claude.agent.sdk.Query;
+import io.github.markpollack.claude.agent.sdk.Query;
 import java.nio.file.*;
 import java.util.concurrent.TimeUnit;
 import java.util.List;

@@ -3,8 +3,8 @@
  * Validates tutorial output by asking Claude to analyze if it demonstrates expected behavior.
  */
 
-import org.springaicommunity.claude.agent.sdk.Query;
-import org.springaicommunity.claude.agent.sdk.QueryOptions;
+import io.github.markpollack.claude.agent.sdk.Query;
+import io.github.markpollack.claude.agent.sdk.QueryOptions;
 import com.fasterxml.jackson.databind.*;
 import java.time.Duration;
 import java.util.List;

@@ -1,7 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //DEPS org.zeroturnaround:zt-exec:1.12
 //DEPS com.fasterxml.jackson.core:jackson-databind:2.17.1
-//DEPS org.springaicommunity:claude-code-sdk:1.0.0-SNAPSHOT
+//DEPS io.github.markpollack:claude-code-sdk:1.0.0-SNAPSHOT
 //REPOS mavenlocal,mavencentral,central-snapshots=https://central.sonatype.com/repository/maven-snapshots/
 //JAVA 21
 //SOURCES jbang-lib/IntegrationTestUtils.java

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springaicommunity</groupId>
+    <groupId>io.github.markpollack</groupId>
     <artifactId>claude-agent-sdk-java-tutorial</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -17,7 +17,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <claude-agent-sdk.version>1.0.0</claude-agent-sdk.version>
+        <claude-agent-sdk.version>1.1.0-SNAPSHOT</claude-agent-sdk.version>
     </properties>
 
     <modules>
@@ -66,7 +66,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.springaicommunity</groupId>
+                <groupId>io.github.markpollack</groupId>
                 <artifactId>claude-code-sdk</artifactId>
                 <version>${claude-agent-sdk.version}</version>
             </dependency>
