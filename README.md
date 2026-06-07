@@ -74,10 +74,10 @@ client.connect("My favorite color is blue.").text()
 
 ```bash
 # Build all modules
-mvn compile
+./mvnw compile
 
 # Run a specific module
-mvn compile exec:java -pl module-01-hello-world
+./mvnw compile exec:java -pl module-01-hello-world
 ```
 
 ## Tutorial Structure
