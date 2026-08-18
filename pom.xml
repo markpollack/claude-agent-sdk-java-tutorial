@@ -17,7 +17,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <claude-agent-sdk.version>1.4.0</claude-agent-sdk.version>
+        <claude-agent-sdk.version>1.5.0</claude-agent-sdk.version>
     </properties>
 
     <modules>
