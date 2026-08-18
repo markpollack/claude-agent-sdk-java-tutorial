@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.markpollack</groupId>
+    <artifactId>anthropic-demo-ports</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Anthropic Demo Ports</name>
+    <description>Java ports of the official Anthropic Claude Agent SDK demos. Not part of the
+        progressive tutorial; built and released separately from the 23 teaching modules.</description>
+
+    <!-- Deliberately standalone: no parent. This tree is not a reactor module of the
+         tutorial, so it must resolve everything on its own. In the SDK repository these
+         examples inherited an "examples-parent" that pointed at a five-versions-stale
+         parent, and took the SDK version from ${project.version} — neither resolved, so
+         none of the four could actually be built. Both are fixed here. -->
+
+    <properties>
+        <java.version>21</java.version>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <claude-agent-sdk.version>1.5.0</claude-agent-sdk.version>
+        <reactor.version>3.8.5</reactor.version>
+        <jackson.version>2.21.6</jackson.version>
+        <logback.version>1.5.15</logback.version>
+        <junit.version>5.10.2</junit.version>
+        <assertj.version>3.25.3</assertj.version>
+    </properties>
+
+    <modules>
+        <module>hello-world</module>
+        <module>research-agent</module>
+        <!-- excel-demo and email-agent inherit spring-boot-starter-parent and carry
+             Vaadin frontend builds; they are aggregated but keep their own parent. -->
+        <module>excel-demo</module>
+        <module>email-agent</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.github.markpollack</groupId>
+                <artifactId>claude-code-sdk</artifactId>
+                <version>${claude-agent-sdk.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.projectreactor</groupId>
+                <artifactId>reactor-core</artifactId>
+                <version>${reactor.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>${assertj.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.11.0</version>
+                    <configuration>
+                        <release>${java.version}</release>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

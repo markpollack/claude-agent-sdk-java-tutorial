@@ -20,6 +20,12 @@ Thumbs.db
 # Planning documents (internal only)
 plans/
 
+# Vaadin frontend build output — the two Spring Boot ports generate these into src/,
+# which is why they need ignoring by path rather than by the target/ rule above.
+**/src/main/frontend/generated/
+**/node_modules/
+vite.generated.ts
+
 # Temporary files
 *.tmp
 *.bak
