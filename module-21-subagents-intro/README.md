@@ -4,7 +4,9 @@ Defining and spawning custom subagents. Learn agent JSON configuration and the `
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/21-subagents-intro
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

@@ -4,7 +4,9 @@ Getting Claude to return structured JSON responses. Learn `JsonSchema` to define
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/09-structured-outputs
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

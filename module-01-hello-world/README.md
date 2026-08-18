@@ -4,7 +4,9 @@ Your first Claude Agent SDK program. Learn the simplest way to query Claude usin
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/01-hello-world
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

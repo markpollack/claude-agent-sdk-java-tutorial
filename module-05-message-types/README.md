@@ -4,7 +4,9 @@ Understanding the message and content block type hierarchy. Learn the four messa
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/05-message-types
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

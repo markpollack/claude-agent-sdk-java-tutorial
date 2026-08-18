@@ -4,7 +4,9 @@ Running multiple agents in parallel. Learn to define multiple specialized agents
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/22-subagents-parallel
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

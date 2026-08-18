@@ -153,5 +153,12 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for credits to source material.
 ## Related Resources
 
 - [Claude Agent SDK Java](https://github.com/markpollack/claude-agent-sdk-java) - The SDK
-- [Documentation](https://springaicommunity.mintlify.app/agent-sdk) - Full documentation and API reference
+- [Documentation](https://lab.pollack.ai/projects/claude-agent-sdk) - Canonical SDK documentation
 - [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) - Official Claude Code docs
+
+## License
+
+[Apache License 2.0](LICENSE).
+
+See [NOTICE](NOTICE) for third-party content in `ports/anthropic-demos/` that the Apache
+grant does not cover.

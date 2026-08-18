@@ -1,0 +1,35 @@
+Claude Agent SDK Java Tutorial
+Copyright 2025-2026 Mark Pollack
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+------------------------------------------------------------------------------
+Third-party content NOT covered by the Apache License above
+------------------------------------------------------------------------------
+
+The Apache grant in LICENSE covers material owned by this project. It does not,
+and cannot, grant rights over third-party content this repository redistributes.
+
+  ports/anthropic-demos/research-agent/src/main/resources/prompts/lead_agent.txt
+  ports/anthropic-demos/research-agent/src/main/resources/prompts/report_writer.txt
+  ports/anthropic-demos/research-agent/src/main/resources/prompts/researcher.txt
+
+These prompt files are substantially copied from Anthropic's Claude Agent SDK
+demos at https://github.com/anthropics/claude-agent-sdk-demos — measured on
+2026-08-18 at 75%, 25% and 13% of substantive lines respectively, with the
+opening block of lead_agent.txt byte-identical. Four subagent description
+strings in
+
+  ports/anthropic-demos/research-agent/src/main/java/io/github/markpollack/
+    claude/agent/examples/research/ResearchAgent.java
+
+are likewise verbatim from that source.
+
+That upstream repository declares no licence: it contains no LICENSE file and
+the GitHub API reports license: null. Its content is therefore all rights
+reserved by its authors, and no licence to it is granted here or implied.
+
+See ports/anthropic-demos/NOTICE.md for the full measurement and the options for
+resolving this. Everything else in ports/anthropic-demos — the Java
+implementations, the Maven build, the Vaadin user interfaces, and the excel-demo
+and email-agent system prompts — is original and is covered by LICENSE.

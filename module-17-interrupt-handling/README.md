@@ -4,7 +4,9 @@ Graceful shutdown during Claude execution. Learn JVM shutdown hooks, `client.int
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/17-interrupt-handling
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

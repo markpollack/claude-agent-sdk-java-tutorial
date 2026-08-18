@@ -4,7 +4,9 @@ Connecting to external MCP servers. Learn `McpStdioServerConfig`, MCP tool namin
 
 ## Documentation
 
-Full tutorial: https://springaicommunity.mintlify.app/claude-agent-sdk/tutorial/18-mcp-external
+This module is self-contained: read the source in `src/main/java`, then run it below.
+For the SDK's canonical documentation see
+https://lab.pollack.ai/projects/claude-agent-sdk
 
 ## Running
 

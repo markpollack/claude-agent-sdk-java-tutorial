@@ -12,6 +12,13 @@
     <name>Claude Agent SDK Java Tutorial</name>
     <description>Progressive tutorial modules for learning the Claude Agent SDK Java</description>
 
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
     <properties>
         <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
