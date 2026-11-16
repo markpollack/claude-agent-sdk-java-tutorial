@@ -20,7 +20,7 @@
     <description>AI-powered spreadsheet creation demo using Vaadin + Claude SDK</description>
 
     <properties>
-        <claude-agent-sdk.version>1.5.0</claude-agent-sdk.version>
+        <claude-agent-sdk.version>1.8.0</claude-agent-sdk.version>
         <java.version>17</java.version>
         <vaadin.version>24.9.3</vaadin.version>
     </properties>

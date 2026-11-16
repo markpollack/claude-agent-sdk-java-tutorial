@@ -14,7 +14,7 @@ import static java.lang.System.*;
 public class AIValidator {
 
     // Haiku model for fast, cost-effective validation (~$0.001 per validation)
-    private static final String VALIDATION_MODEL = "claude-haiku-4-5-20251001";
+    private static final String VALIDATION_MODEL = "claude-haiku-5-5";
     private static final Duration VALIDATION_TIMEOUT = Duration.ofSeconds(60);
 
     // Validation result record

@@ -24,7 +24,7 @@
         <maven.compiler.release>${java.version}</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <claude-agent-sdk.version>1.5.0</claude-agent-sdk.version>
+        <claude-agent-sdk.version>1.8.0</claude-agent-sdk.version>
         <reactor.version>3.8.5</reactor.version>
         <jackson.version>2.21.6</jackson.version>
         <logback.version>1.5.15</logback.version>
